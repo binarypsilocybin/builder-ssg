@@ -1,0 +1,35 @@
+{
+  "environments": {
+    "default": {
+      "metadata": {
+        "website_title": "No Title"
+      },
+      "languages": [
+        "en, /en, /, http://127.0.0.1:5000"
+      ]
+    }
+  },
+  "source": "site/pages",
+  "destination": "output",
+  "clean": true,
+  "data": {
+    "posts_path": "content/posts",
+    "pages_path": "site/pages"
+  },
+  "assets": {
+    "src": "site/assets",
+    "dest": ["assets"]
+  },
+  "inplace": {
+    "engine": "nunjucks"
+  },
+  "layouts": {
+    "engine": "nunjucks",
+    "directory": "site/theme",
+    "engineOptions": {
+      "path": "./site/theme"
+    }
+  },
+  "log": false,
+  "debug": false
+}

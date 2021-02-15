@@ -1,0 +1,26 @@
+{
+  "name": "builder-ssg",
+  "version": "1.5.0",
+  "description": "Static Site Generator",
+  "bin": {
+    "builder-ssg": "bin/builder-ssg.js",
+    "builder-ssg-build": "bin/build.js"
+  },
+  "author": "Rogério Martins",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^3.0.2",
+    "fs-extra": "^8.1.0",
+    "gray-matter": "^4.0.2",
+    "jstransformer-markdown": "^1.2.1",
+    "jstransformer-nunjucks": "^1.0.0",
+    "marked": "^0.7.0",
+    "metalsmith": "^2.3.0",
+    "metalsmith-href": "^1.0.2",
+    "metalsmith-in-place": "^4.4.1",
+    "metalsmith-layouts": "^2.3.1",
+    "metalsmith-permalinks": "^2.2.0",
+    "moment": "^2.29.1"
+  }
+}

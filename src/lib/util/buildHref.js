@@ -1,0 +1,1 @@
+module.exports = buildUrl = (base, path) => new URL(path, base).href

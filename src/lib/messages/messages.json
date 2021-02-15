@@ -1,0 +1,49 @@
+{
+  "config": {
+    "warning": {
+      "CONFIG": "couldn't find config.json file in /site root or /site/config",
+      "ENVIRONMENTS": "environments option not defined in config, assuming {%=%}",
+      "ENVIRONMENTS_LANG": "environment {%=%} has no option languages, assuming {%#%}",
+      "SOURCE": "source option not defined in config, assuming {%=%}",
+      "DESTINATION": "destination option not defined in config, assuming {%=%}",
+      "DATA_POSTS_PATH": "data posts_path option not defined in config, assuming {%=%}",
+      "DATA_PAGES_PATH": "data pages_path option not defined in config, assuming {%=%}",
+      "ASSETS_SRC": "assets src option not defined in config, assuming {%=%}",
+      "ASSETS_DEST": "assets dest option not defined in config, assuming {%=%}",
+      "LAYOUTS_DIRECTORY": "layouts directory option not defined in config, assuming {%=%}",
+      "LOG": "log option not defined in config, assuming {%=%}",
+      "DEBUG": "debug option not defined in config, assuming {%=%}"
+    },
+    "error":{
+      "ASSETS_DEST": "assets dest option has to be an array",
+      "ASSETS_DEST_STRING": "assets dest array can only have string elements"
+    }
+  },
+  "options": {
+    "error": {
+      "PROVIDED_ENV": "Provided environment {%=%} does not match any environment defined in config. Error code: 1200`"
+    }
+  },
+  "parsing":{
+    "error": {
+      "LANGUAGE": "language item with index {%=%} in {%#%} environment, is wrongly formatted (locale, input, output, url)",
+      "SLUG_LIST": "slug list item with index {%=%} in {%#%} page, is wrongly formatted (locale, slug, layout)",
+      "SLUG_LIST_LANG": "locale in slug list item with index {%=%} in {%#%} page, is not defined",
+      "SEO_META": "Meta {%=%} in file {%#%}, is wrongly formatted (locale, \"value\")",
+      "INVALID_FRONTMATTER": "invalid frontmatter in file {%=%}. Error code: 2100",
+      "INVALID_TAXONOMY": "invalid taxonomy in file {%=%}. Error code: 2100"
+    }
+  },
+  "layouts": {
+    "error": {
+      "NO_LAYOUT": "layout is not defined on file {%=%}",
+      "LAYOUT_NOT_FOUND": "layout {%=%} defined on file {%#%} was not found"
+    }
+  },
+  "build": {
+    "error": {
+      "BUILD_ERROR": "an error occurred while building. Error code: 0000",
+      "NO_FILES": "no pages in path {%=%}"
+    }
+  }
+}
